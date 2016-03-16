@@ -1,5 +1,6 @@
 .main {
     background: #586f8b;
+    margin: 0 auto;
     
 }
 
@@ -98,8 +99,8 @@
   transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 
