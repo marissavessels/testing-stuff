@@ -1,0 +1,105 @@
+.main {
+    background: #586f8b;
+    
+}
+
+.case-c,
+.case-a,
+.case-s,
+.case-e {
+    display: inline-block;
+    padding: 10px;
+}
+
+/*---- Keyframes -----*/
+
+@keyframes offset {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-it {
+    100% {
+        fill: #ffffff;
+    }
+}
+
+/*---- MerusBall Animation -----
+
+.merus-ball {
+    stroke: #f37f26;
+    stroke-width: 2;
+    stroke-dasharray: 615;
+    stroke-dashoffset: 615; 
+    
+   animation: offset 3s linear forwards, fill-it .8s 5s forwards;
+}
+
+.merus-ball {
+    transition: .4s ease-out;
+} */
+
+/*---- Merus Animation -----*/
+
+.logo-m,
+.logo-e,
+.logo-r,
+.logo-u,
+.logo-s {
+    stroke: #ffffff;
+    stroke-width: 2;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700; 
+    
+   animation: offset 5s linear forwards, fill-it .8s 5s forwards;
+}
+
+.logo-m,
+.logo-e,
+.logo-r,
+.logo-u,
+.logo-s {
+    transition: .4s ease-out;
+}
+
+/*---- Case Text Hover ----
+
+.case-c:hover,
+.case-a:hover,
+.case-s:hover,
+.case-e:hover {
+    fill: #f27f26;
+    transform: scale(1.01);
+    
+}
+
+.case-c:hover,
+.case-a:hover,
+.case-s:hover,
+.case-e:hover {
+    transition: .5s ease-in-out;
+    
+} */
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
